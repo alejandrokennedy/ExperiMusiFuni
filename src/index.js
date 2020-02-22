@@ -1,29 +1,17 @@
-<<<<<<< HEAD
-// import * as d3 from 'd3'
-import { scaleQuantile } from "d3"
-import { midi, transpose, scale, range } from "tonal"
-import * as Tone from "tone"
-
-=======
 import * as d3 from 'd3'
 import { midi, transpose, scale } from "tonal"
 import _ from 'lodash'
 import * as p5 from 'p5'
 import * as THREE from 'three'
->>>>>>> fbe345b4aec97c864eba52ec29d26940a8e0b630
 
 // ************************
 // TEST CONSOLE LOGS
 // ************************
 
-<<<<<<< HEAD
-// console.log(midi("c4"))
-=======
 // console.log(d3)
 console.log(midi("c4"))
 // console.log(transpose("d4", "3M"))
 // console.log(scale("major").map(transpose("C2")))
->>>>>>> fbe345b4aec97c864eba52ec29d26940a8e0b630
 
 // console.log(midiToNoteName('midiToNoteName:', 61))
 
