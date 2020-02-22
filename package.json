@@ -23,6 +23,7 @@
     "d3": "^5.15.0",
     "lodash": "^4.17.15",
     "tonal": "^2.2.2",
+    "tone": "^13.8.25",
     "typescript": "^3.8.2",
     "uglifyjs-webpack-plugin": "^2.2.0"
   },
