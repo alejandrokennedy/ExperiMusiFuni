@@ -1,0 +1,27 @@
+{
+  "name": "experimusifuni",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alejandrokennedy/ExperiMusiFuni.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alejandrokennedy/ExperiMusiFuni/issues"
+  },
+  "homepage": "https://github.com/alejandrokennedy/ExperiMusiFuni#readme",
+  "dependencies": {
+    "@tonaljs/modules": "^3.4.3",
+    "browserify": "^16.5.0",
+    "d3": "^5.15.0",
+    "require": "^2.4.20",
+    "tonal": "^2.2.2",
+    "tone": "^13.8.25"
+  }
+}
