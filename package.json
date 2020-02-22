@@ -1,27 +1,33 @@
 {
-  "name": "experimusifuni",
+  "name": "experiMusiFuni",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "webpack --watch"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/alejandrokennedy/ExperiMusiFuni.git"
+    "url": "git+https://github.com/alejandrokennedy/experiMusiFuni.git"
   },
+  "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/alejandrokennedy/ExperiMusiFuni/issues"
+    "url": "https://github.com/alejandrokennedy/experiMusiFuni/issues"
   },
-  "homepage": "https://github.com/alejandrokennedy/ExperiMusiFuni#readme",
+  "homepage": "https://github.com/alejandrokennedy/experiMusiFuni#readme",
   "dependencies": {
-    "@tonaljs/modules": "^3.4.3",
-    "browserify": "^16.5.0",
+    "awesome-typescript-loader": "^5.2.1",
     "d3": "^5.15.0",
-    "require": "^2.4.20",
+    "lodash": "^4.17.15",
     "tonal": "^2.2.2",
-    "tone": "^13.8.25"
+    "typescript": "^3.8.2",
+    "uglifyjs-webpack-plugin": "^2.2.0"
+  },
+  "devDependencies": {
+    "webpack": "^4.41.6",
+    "webpack-cli": "^3.3.11"
   }
 }
