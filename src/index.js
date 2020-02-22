@@ -41,3 +41,4 @@ console.log(scale("major").map(transpose("C2")))
 // ************************
 // BRIAN
 // ************************
+console.log("this is brian :)");
