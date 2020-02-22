@@ -1,5 +1,6 @@
 import * as d3 from 'd3'
 import { midi, transpose, scale } from "tonal"
+import * as Tone from "tone"
 import _ from 'lodash'
 import * as p5 from 'p5'
 import * as THREE from 'three'
@@ -28,7 +29,7 @@ let b1, b2, b3, b4, b5, b6, b7, b8;
 const synth = new Tone.Synth().toMaster()
 
 function playNote(val) {
-  const firstMusicScale = scaleQuantile()
+  const firstMusicScale = d3.scaleQuantile()
     .domain([0, 255])
     .range([1, 128])
 
