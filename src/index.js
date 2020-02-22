@@ -1,7 +1,7 @@
 import * as d3 from 'd3'
 import { midi, transpose, scale } from "tonal"
 // import _ from 'lodash'
-
+import * as p5 from 'p5'
 
 // ************************
 // TEST CONSOLE LOGS
