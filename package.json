@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/alejandrokennedy/experiMusiFuni#readme",
   "dependencies": {
+    "@tonaljs/midi": "^3.3.1",
     "awesome-typescript-loader": "^5.2.1",
     "d3": "^5.15.0",
     "lodash": "^4.17.15",

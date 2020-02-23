@@ -217,9 +217,9 @@ function serialEvent() {
 }
 
 function serialError(err) {
-  print('Something went wrong with the serial port. ' + err);
+  console.log('Something went wrong with the serial port. ' + err);
 }
 
 function portClose() {
-  print('The serial port closed.');
+  console.log('The serial port closed.');
 }
